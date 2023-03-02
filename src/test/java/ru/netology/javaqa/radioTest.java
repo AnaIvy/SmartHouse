@@ -8,10 +8,10 @@ class radioTest {
     public void shouldSetNextStationIfStatBellowMax() {
         Radio radio = new Radio();
 
-        radio.setCurrentStation(6);
+        radio.setCurrentStation(1);
         radio.setNextStation();
 
-        int expected = 7;
+        int expected = 2;
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
@@ -32,10 +32,10 @@ class radioTest {
     public void shouldSetPrevStationIfStatBellowMax() {
         Radio radio = new Radio();
 
-        radio.setCurrentStation(8);
+        radio.setCurrentStation(2);
         radio.setPrevStation();
 
-        int expected = 7;
+        int expected = 1;
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
