@@ -5,6 +5,26 @@ import org.junit.jupiter.api.Test;
 
 class radioTest {
     @Test
+    public void shouldSetStationIfStatAboveMax() {
+        Radio radio = new Radio();
+
+        radio.setCurrentStation(15);
+
+        int expected = 0;
+        int actual = radio.getCurrentStation();
+        Assertions.assertEquals(expected, actual);
+    }
+    @Test
+    public void shouldSetStationIfStatBellowMin() {
+        Radio radio = new Radio();
+
+        radio.setCurrentStation(-1);
+
+        int expected = 0;
+        int actual = radio.getCurrentStation();
+        Assertions.assertEquals(expected, actual);
+    }
+    @Test
     public void shouldSetNextStationIfStatBellowMax() {
         Radio radio = new Radio();
 

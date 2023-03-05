@@ -13,11 +13,11 @@ public class Radio {
     }
 
     public void setCurrentStation(int newCurrentStation) {
-        if (newCurrentStation <= 0) {
-            newCurrentStation = 9;
+        if (newCurrentStation < 0) {
+            return;
         }
-        if (newCurrentStation >= 9) {
-            newCurrentStation = 0;
+        if (newCurrentStation > 9) {
+            return;
         }
         currentStation = newCurrentStation;
     }
@@ -36,19 +36,18 @@ public class Radio {
     }
 
     public void setNextStation() {
-        if (currentStation > 0) {
+        if (currentStation != 9) {
             currentStation = currentStation + 1;
+        } else {
+            currentStation = 0;
         }
-        return;
     }
 
     public void setPrevStation() {
-        if (currentStation > 0) {
+        if (currentStation != 0) {
             currentStation = currentStation - 1;
-        }
-        if (currentStation <= 0) {
+        } else {
             currentStation = 9;
-            return;
         }
     }
 
