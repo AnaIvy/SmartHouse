@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.javaqa.radioTest" time="0.021" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.javaqa.radioTest" time="0.02" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire/surefirebooter13316980204011108478.jar /Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire 2023-03-05T10-52-02_936-jvmRun1 surefire7509337462856276751tmp surefire_02280529177961906082tmp"/>
+    <property name="sun.java.command" value="/Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire/surefirebooter13325303581256553822.jar /Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire 2023-03-10T21-33-19_321-jvmRun1 surefire3021180220552671309tmp surefire_016828035047618038822tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/annakuvsinova/IdeaProjects/SmartHouse/target/test-classes:/Users/annakuvsinova/IdeaProjects/SmartHouse/target/classes:/Users/annakuvsinova/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/annakuvsinova/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/annakuvsinova/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/annakuvsinova/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/annakuvsinova/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/annakuvsinova/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/annakuvsinova/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/annakuvsinova/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire/surefirebooter13316980204011108478.jar"/>
+    <property name="surefire.real.class.path" value="/Users/annakuvsinova/IdeaProjects/SmartHouse/target/surefire/surefirebooter13325303581256553822.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.17+8"/>
@@ -62,18 +62,22 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldDecreaseVolumeIfVolumeAboveMin" classname="ru.netology.javaqa.radioTest" time="0.014"/>
+  <testcase name="shouldDecreaseVolumeIfVolumeAboveMin" classname="ru.netology.javaqa.radioTest" time="0.011"/>
   <testcase name="shouldSetPrevStationIfStatMin" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldDecreasVolumeIfVolumBellowMax" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldSetPrevStationIfStatBellowMax" classname="ru.netology.javaqa.radioTest" time="0.001"/>
-  <testcase name="shouldNotSetTemperatureBellowMin" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldIncreasVolumeifVolumMax" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldSetStationIfStatBellowMin" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldCreatRadioVolume" classname="ru.netology.javaqa.radioTest" time="0"/>
+  <testcase name="shouldDecreasVolumeIfVolumBellowMax" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldCreatRadio" classname="ru.netology.javaqa.radioTest" time="0"/>
+  <testcase name="shouldSetPrevStationIfStatBellowMax" classname="ru.netology.javaqa.radioTest" time="0"/>
+  <testcase name="shouldIncreasVolumeifVolumMax" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldCreatRadioIfStationAboveMax" classname="ru.netology.javaqa.radioTest" time="0"/>
+  <testcase name="shouldSetStationIfStatBellowMin" classname="ru.netology.javaqa.radioTest" time="0"/>
   <testcase name="shouldSetStationIfStatAboveMax" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldSetVolumeAboveMax" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldSetVolumeAboveMax" classname="ru.netology.javaqa.radioTest" time="0"/>
   <testcase name="shouldIncreasVolumeifVolumBellowMax" classname="ru.netology.javaqa.radioTest" time="0"/>
   <testcase name="shouldDecreasVolumeIfVolumMax" classname="ru.netology.javaqa.radioTest" time="0"/>
-  <testcase name="shouldSetNextStationIfStatMax" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldDecreasVolumeIfVolumMin" classname="ru.netology.javaqa.radioTest" time="0.001"/>
+  <testcase name="shouldSetNextStationIfStatMax" classname="ru.netology.javaqa.radioTest" time="0"/>
+  <testcase name="shouldNotSetVolumeBellowMin" classname="ru.netology.javaqa.radioTest" time="0.001"/>
   <testcase name="shouldSetNextStationIfStatBellowMax" classname="ru.netology.javaqa.radioTest" time="0"/>
   <testcase name="shouldDecreasVolumeIfVolumAboveMax" classname="ru.netology.javaqa.radioTest" time="0"/>
 </testsuite>
