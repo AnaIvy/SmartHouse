@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7963a1c-7ca2-4923-ba8b-32cfaf508b03" name="Changes" comment="" />
+    <list default="true" id="a7963a1c-7ca2-4923-ba8b-32cfaf508b03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/radioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/radioTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +53,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.netology.javaqa" />
     </key>
@@ -59,8 +65,8 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.radioTest">
-    <configuration name="radioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.javaqa">
+    <configuration name="javaqa" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaqa" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.radioTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="radioTest.shouldDecreasVolumeIfVolumMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="radioTest.shouldDecreasVolumeIfVolumMax" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +146,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.javaqa" />
+      <item itemvalue="JUnit.radioTest.shouldDecreasVolumeIfVolumMax" />
+      <item itemvalue="JUnit.radioTest.shouldDecreasVolumeIfVolumMin" />
+      <item itemvalue="JUnit.radioTest.shouldIncreasVolumeifVolumBellowMax" />
+      <item itemvalue="JUnit.radioTest.shouldIncreasVolumeifVolumMax" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.radioTest" />
         <item itemvalue="JUnit.radioTest.shouldDecreasVolumeIfVolumMin" />
-        <item itemvalue="JUnit.radioTest.shouldDecreasVolumeIfVolumMax" />
         <item itemvalue="JUnit.radioTest.shouldIncreasVolumeifVolumMax" />
         <item itemvalue="JUnit.radioTest.shouldIncreasVolumeifVolumBellowMax" />
       </list>
