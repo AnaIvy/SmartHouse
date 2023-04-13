@@ -3,7 +3,7 @@ package ru.netology.javaqa;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class radioTest {
+public class radioTest {
     @Test
     public void shouldCreatRadio() {
         Radio radio = new Radio(10);
